@@ -43,15 +43,6 @@ const HomePage = () => {
 					justifyContent="space-between"
 					alignItems="center"
 
-					// style={{
-					// 	// paddingLeft: "20%",
-					// 	// paddingRight: "20%",
-					// 	flexDirection: "column",
-					// 	display: "flex",
-					// 	alignItems: "center",
-					// 	justifyContent: "space-between",
-					// 	height: "92%",
-					// }}
 				>
 					<FeaturedCard />
 

@@ -1,5 +1,5 @@
 // import Featured from "../../../assets/subway.png";
-import { Skeleton } from "@chakra-ui/react";
+import { Box, Skeleton } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
 import CoverImage from "../../components/CoverImage/CoverImage";
 import DeatailsInfo from "../../components/DeatailsInfo/DeatailsInfo";
@@ -28,16 +28,13 @@ const DetailsPage = () => {
 					paddingTop: "10px",
 				}}
 			>
-				<div
-					style={{
-						paddingLeft: "20%",
-						paddingRight: "20%",
-						flexDirection: "column",
-						display: "flex",
-						alignItems: "center",
-						justifyContent: "space-between",
-						height: "92%",
-					}}
+				<Box
+					px={{ base: "5%", md: "20%", lg: "20%" }}
+					display="flex"
+					flexDirection="column"
+					height="92%"
+					justifyContent="space-between"
+					alignItems="center"
 				>
 					{isLoading && <Skeleton height="25vh" width="100%" />}
 					{game !== undefined ? (
@@ -48,7 +45,7 @@ const DetailsPage = () => {
 					) : null}
 
 					<GameCardsContainer name="Most recommandations" />
-				</div>
+				</Box>
 			</div>
 		</>
 	);
