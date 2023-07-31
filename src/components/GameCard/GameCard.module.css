@@ -1,0 +1,45 @@
+.card {
+	width: 150px;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 7px;
+	margin-left: 7px;
+}
+.ratingContainer {
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: white;
+	width: 45px;
+	height: 18px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.ratingContainer > p {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.gameName {
+	color: grey;
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.moreInfoBtn {
+	border-radius: 2px;
+	background-color: #ff5252;
+	color: white;
+	width: 60px;
+	font-size: 10px;
+	font-weight: 500;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

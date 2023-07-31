@@ -1,0 +1,19 @@
+.container {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-right: 50px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.gameTitle {
+	font-size: 2.1vh;
+	font-weight: 700;
+	height: 30px;
+	margin-top: 5px;
+}
