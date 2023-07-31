@@ -87,7 +87,7 @@ const Header = ({ onSearch }: Props) => {
 							<Input
 								ref={ref}
 								borderRadius={20}
-								placeholder="Searcg games..."
+								placeholder="Search games..."
 								_placeholder={{ hideBelow: "md" }}
 								size="sm"
 								focusBorderColor="purple.600"
