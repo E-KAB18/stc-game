@@ -9,7 +9,7 @@ export interface GameDetails {
 	name: string;
 	background_image: string;
 	description_raw: string;
-	parent_platforms: Platform[]
+	parent_platforms: [{ platform: Platform }];
 }
 
 const useGame = (id: number) => {
